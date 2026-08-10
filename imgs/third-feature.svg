@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" width="800" height="620">
+  <title>Save your favourite stays and experiences — OLIVAE</title>
+  <desc>Minimalist travel illustration showing a favourite hotel stay and travel experiences saved with a heart.</desc>
+
+  <!-- Transparent background -->
+
+  <!-- Decorative travel path -->
+  <path d="M105 455 C175 385 225 470 300 400 S430 315 510 370 S625 330 695 225"
+        fill="none"
+        stroke="#4B5A2A"
+        stroke-width="7"
+        stroke-linecap="round"
+        stroke-dasharray="2 22"/>
+
+  <!-- Hotel / stay -->
+  <g>
+    <!-- Building -->
+    <rect x="170" y="205" width="275" height="235" rx="18"
+          fill="#FFFFFF" stroke="#4B5A2A" stroke-width="9"/>
+
+    <!-- Roof -->
+    <path d="M145 210 L307 120 L470 210 Z"
+          fill="#4B5A2A"/>
+    <path d="M180 205 L307 138 L435 205"
+          fill="none" stroke="#FFFFFF" stroke-width="7"
+          stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Door -->
+    <rect x="282" y="350" width="52" height="90" rx="8"
+          fill="#4B5A2A"/>
+    <circle cx="321" cy="395" r="4" fill="#FFFFFF"/>
+
+    <!-- Windows -->
+    <g fill="none" stroke="#4B5A2A" stroke-width="7">
+      <rect x="205" y="250" width="55" height="58" rx="6"/>
+      <rect x="285" y="250" width="55" height="58" rx="6"/>
+      <rect x="365" y="250" width="55" height="58" rx="6"/>
+    </g>
+
+    <g stroke="#4B5A2A" stroke-width="5">
+      <path d="M232 250 V308 M205 279 H260"/>
+      <path d="M312 250 V308 M285 279 H340"/>
+      <path d="M392 250 V308 M365 279 H420"/>
+    </g>
+
+    <!-- Hotel flag -->
+    <path d="M307 120 V85" stroke="#4B5A2A" stroke-width="7"
+          stroke-linecap="round"/>
+    <path d="M309 88 H355 L335 108 H309 Z" fill="#4B5A2A"/>
+  </g>
+
+  <!-- Favourite heart -->
+  <path d="M585 125
+           C560 95 505 110 505 155
+           C505 195 585 245 585 245
+           C585 245 665 195 665 155
+           C665 110 610 95 585 125Z"
+        fill="#4B5A2A"/>
+
+  <!-- Heart highlight -->
+  <path d="M538 145 C545 133 559 130 569 138"
+        fill="none"
+        stroke="#FAF8F2"
+        stroke-width="7"
+        stroke-linecap="round"/>
+
+  <!-- Experience: small sun -->
+  <circle cx="560" cy="310" r="23"
+          fill="none" stroke="#4B5A2A" stroke-width="7"/>
+  <g stroke="#4B5A2A" stroke-width="6" stroke-linecap="round">
+    <path d="M560 270 V258"/>
+    <path d="M560 362 V350"/>
+    <path d="M520 310 H508"/>
+    <path d="M612 310 H600"/>
+    <path d="M532 282 L523 273"/>
+    <path d="M588 338 L597 347"/>
+    <path d="M588 282 L597 273"/>
+    <path d="M532 338 L523 347"/>
+  </g>
+
+  <!-- Experience: small mountain -->
+  <path d="M505 430 L550 365 L575 398 L600 375 L655 430 Z"
+        fill="none"
+        stroke="#4B5A2A"
+        stroke-width="7"
+        stroke-linejoin="round"/>
+  <path d="M535 430 L550 408 L565 430"
+        fill="none" stroke="#4B5A2A" stroke-width="6"
+        stroke-linejoin="round"/>
+
+  <!-- Airplane accent -->
+  <g fill="#4B5A2A" transform="translate(80 120) rotate(-18)">
+    <path d="M0 22 L82 0 L61 28 L82 53 L0 30 Z"/>
+    <path d="M31 18 L44 -13 L53 -11 L49 21 Z"/>
+    <path d="M32 32 L44 63 L53 60 L49 29 Z"/>
+  </g>
+
+  <!-- Olive branch accent -->
+  <path d="M160 505 C205 475 245 465 285 458"
+        fill="none"
+        stroke="#4B5A2A"
+        stroke-width="7"
+        stroke-linecap="round"/>
+
+  <g fill="#4B5A2A">
+    <ellipse cx="205" cy="477" rx="11" ry="29" transform="rotate(48 205 477)"/>
+    <ellipse cx="237" cy="468" rx="11" ry="29" transform="rotate(67 237 468)"/>
+    <ellipse cx="263" cy="459" rx="10" ry="27" transform="rotate(75 263 459)"/>
+    <circle cx="187" cy="490" r="10"/>
+  </g>
+</svg>

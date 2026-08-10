@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" width="800" height="620">
+  <title>Plan every day of your trip — OLIVAE</title>
+  <desc>Minimalist travel planning illustration with a calendar, route, map pin and airplane.</desc>
+
+  <!-- Transparent background -->
+
+  <!-- Soft decorative route -->
+  <path d="M145 465 C220 390 255 475 325 395 S455 320 515 375 S625 330 675 245"
+        fill="none" stroke="#4B5A2A" stroke-width="7"
+        stroke-linecap="round" stroke-dasharray="2 22"/>
+
+  <!-- Map pin -->
+  <path d="M675 245
+           C675 215 651 192 622 192
+           C593 192 570 215 570 245
+           C570 285 622 337 622 337
+           C622 337 675 285 675 245Z"
+        fill="#4B5A2A"/>
+  <circle cx="622" cy="244" r="17" fill="#FAF8F2"/>
+
+  <!-- Calendar body -->
+  <rect x="155" y="145" width="390" height="315" rx="28"
+        fill="#FFFFFF" stroke="#4B5A2A" stroke-width="9"/>
+
+  <!-- Calendar top bar -->
+  <path d="M155 215 H545" fill="none" stroke="#4B5A2A" stroke-width="9"/>
+
+  <!-- Calendar binding rings -->
+  <path d="M235 120 V178 M465 120 V178"
+        fill="none" stroke="#4B5A2A" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Calendar days -->
+  <g fill="#4B5A2A">
+    <circle cx="215" cy="270" r="9"/>
+    <circle cx="285" cy="270" r="9"/>
+    <circle cx="355" cy="270" r="9"/>
+    <circle cx="425" cy="270" r="9"/>
+    <circle cx="495" cy="270" r="9"/>
+
+    <circle cx="215" cy="330" r="9"/>
+    <circle cx="285" cy="330" r="9"/>
+    <circle cx="355" cy="330" r="9"/>
+    <circle cx="425" cy="330" r="9"/>
+    <circle cx="495" cy="330" r="9"/>
+
+    <circle cx="215" cy="390" r="9"/>
+    <circle cx="285" cy="390" r="9"/>
+    <circle cx="355" cy="390" r="9"/>
+    <circle cx="425" cy="390" r="9"/>
+    <circle cx="495" cy="390" r="9"/>
+  </g>
+
+  <!-- Selected day -->
+  <circle cx="355" cy="330" r="25" fill="none"
+          stroke="#4B5A2A" stroke-width="7"/>
+
+  <!-- Check mark -->
+  <path d="M343 330 L352 339 L370 317"
+        fill="none" stroke="#4B5A2A" stroke-width="7"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Airplane -->
+  <g fill="#4B5A2A" transform="translate(98 105) rotate(-18)">
+    <path d="M0 22 L82 0 L61 28 L82 53 L0 30 Z"/>
+    <path d="M31 18 L44 -13 L53 -11 L49 21 Z"/>
+    <path d="M32 32 L44 63 L53 60 L49 29 Z"/>
+  </g>
+
+  <!-- Small olive branch accent -->
+  <g fill="none" stroke="#4B5A2A" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M545 500 C590 455 620 440 665 420" stroke-width="7"/>
+  </g>
+  <g fill="#4B5A2A">
+    <ellipse cx="598" cy="455" rx="11" ry="29" transform="rotate(48 598 455)"/>
+    <ellipse cx="628" cy="442" rx="11" ry="29" transform="rotate(67 628 442)"/>
+    <ellipse cx="646" cy="424" rx="10" ry="27" transform="rotate(75 646 424)"/>
+    <circle cx="580" cy="471" r="10"/>
+  </g>
+</svg>
