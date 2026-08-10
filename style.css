@@ -5,10 +5,17 @@ body {
 }
 
 .header{
-    background-color: rgb(247, 238, 228);
+    background-color: rgb(248, 244, 239);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.olivae-logo {
+    height: 150px;
+    width: auto;
 }
 
 ul {
@@ -16,7 +23,7 @@ ul {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
 li {
@@ -27,4 +34,55 @@ a {
   text-decoration: none;
   font-size: 24px;
   color: rgb(11, 19, 12);
+}
+
+.hero{
+    background-color: rgb(248, 244, 239);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 48px;
+    max-width: 600px;
+}
+
+.hero-mediterranean{
+    height: 400px;
+    width: auto;
+}
+
+button{
+    margin-top: 60px;
+    font-size: 18px;
+    border-radius: 8px;
+    color: rgb(248, 244, 239);
+    background-color: rgb(11, 19, 12);
+    padding: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.webpage {
+  max-width: 200px;
+}
+
+.Features {
+    height: 200px;
+    width: auto;
+}
+
+h2{
+    text-align: center;
 }
