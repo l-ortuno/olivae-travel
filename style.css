@@ -6,7 +6,6 @@ body {
   font-size: 18px;
 }
 
-
 header{
     background-color: rgb(248, 244, 239);
     display: flex;
@@ -34,7 +33,6 @@ a {
   font-size: 20px;
   color: rgb(14, 24, 15);
 }
-
 
 #hero{
     background-color: rgb(248, 244, 239);
@@ -68,6 +66,12 @@ h1{
     border-color: rgb(14, 24, 15);
 }
 
+h2{
+    text-align: center;
+    font-size: 34px;
+    padding: 10px;
+    margin-top: 80px;
+}
 
 .container {
   display: flex;
@@ -80,18 +84,15 @@ h1{
   max-width: 300px;
 }
 
+.logo-title{
+  font-weight: 700;
+  margin: 10px;
+}
+
 .feature-logo {
     height: 200px;
     width: auto;
 }
-
-h2{
-    text-align: center;
-    font-size: 34px;
-    padding: 10px;
-    margin-top: 80px;
-}
-
 
 #testimonial{
   background-color: rgb(244, 245, 242);
