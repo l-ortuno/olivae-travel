@@ -103,7 +103,7 @@ h2{
 
 blockquote{
   max-width: 1200px;
-  padding-left: 500px;
+  margin: 0 auto;
   padding-bottom: 50px;
   padding-top: 50px;
 }
