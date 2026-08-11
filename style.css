@@ -2,9 +2,12 @@ body {
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   min-height: 100vh;
+  color: rgb(14, 24, 15);
+  font-size: 18px;
 }
 
-.header{
+
+header{
     background-color: rgb(248, 244, 239);
     display: flex;
     justify-content: space-between;
@@ -33,20 +36,16 @@ li {
 a {
   text-decoration: none;
   font-size: 24px;
-  color: rgb(11, 19, 12);
+  color: rgb(14, 24, 15);
 }
 
-.hero{
+
+#hero{
     background-color: rgb(248, 244, 239);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 100px;
-}
-
-.right{
-    display: flex;
-    flex-direction: column;
+    padding: 50px;
 }
 
 h1{
@@ -59,30 +58,90 @@ h1{
     width: auto;
 }
 
-button{
+.button-hero{
     margin-top: 60px;
     font-size: 18px;
     border-radius: 8px;
     color: rgb(248, 244, 239);
-    background-color: rgb(11, 19, 12);
+    background-color: rgb(14, 24, 15);
     padding: 5px;
+    border-color: rgb(14, 24, 15);
 }
+
 
 .container {
   display: flex;
   justify-content: center;
-  gap: 52px;
+  gap: 50px;
+  text-align: center;
 }
 
-.webpage {
-  max-width: 200px;
+.feature {
+  max-width: 300px;
 }
 
-.Features {
+.feature-logo {
     height: 200px;
     width: auto;
 }
 
 h2{
     text-align: center;
+    font-size: 34px;
+    padding: 10px;
+    margin-top: 80px;
+}
+
+
+#testimonial{
+  background-color: rgb(244, 245, 242);
+  font-size: 36px;
+  font-weight: 300px;
+  font-style: italic;
+  margin-top: 80px;
+}
+
+blockquote{
+  max-width: 1200px;
+  padding-left: 500px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+
+.login{
+  display: flex;
+  background-color: rgb(14, 24, 15);
+  color: white;
+  max-width: 800px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 50px;
+  gap: 50px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.button-login{
+  background-color: rgb(14, 24, 15);
+  color: white;
+  border-color: white;
+  border-radius: 8px;
+  height: 30px;
+  padding: 15px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  background-color: rgb(248, 244, 239);
+  padding-left: 100px;
+  padding-right: 100px;
+  color: rgb(14, 24, 15);
+  text-align: center;
+  margin-top: 50px;
+  padding: 5px;
 }
