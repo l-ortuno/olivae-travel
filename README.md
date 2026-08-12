@@ -21,3 +21,8 @@ Olivae is actively under development.
 The current version focuses mainly on HTML and CSS fundamentals. The project will evolve alongside my progress through The Odin Project curriculum.
 
 My goal is to gradually introduce new concepts and technologies rather than building the entire application at once.
+
+## Credits
+
+* **Logo and feature icons:** Created with the help of OpenAI's ChatGPT.
+* **Hero image:** Photo by [Noureddine Metatla](https://www.pexels.com/@noureddine/) on [Pexels](https://www.pexels.com/photo/fortress-on-sea-shore-by-hill-11943520/).
